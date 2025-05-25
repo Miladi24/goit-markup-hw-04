@@ -120,7 +120,7 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 48px;
+
   max-width: 496px;
   margin: 0 auto 48px;
 }
@@ -285,12 +285,6 @@ h6 {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-image {
-  width: 360px;
-  height: 360px;
-  object-fit: cover;
-  object-position: top;
-}
 .portfolio-image {
   width: 360px;
   height: 300px;
