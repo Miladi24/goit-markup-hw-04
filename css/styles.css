@@ -99,6 +99,7 @@ h6 {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
   padding-bottom: 292px;
 }
 .hero-wrapper {
@@ -120,6 +121,7 @@ h6 {
 }
 .hero-btn {
   display: flex;
+
   margin: 0 auto;
 }
 
@@ -260,7 +262,6 @@ h6 {
   object-fit: cover;
   object-position: top;
 }
-
 .portfolio-image {
   width: 360px;
   height: 300px;
