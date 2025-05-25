@@ -99,11 +99,7 @@ h6 {
 
 .hero {
   background-color: #2e2f42;
-<<<<<<< HEAD
-  padding-top: 188px;
   padding-bottom: 292px;
-=======
->>>>>>> 7e33ef99c98cf93731e8c57b6f0a57b4325345fb
 }
 .hero-wrapper {
   padding: 188px 472px 292px 472px;
@@ -124,18 +120,14 @@ h6 {
 }
 .hero-btn {
   display: flex;
-<<<<<<< HEAD
   margin: 0 auto;
-=======
 }
 
 .hero-button {
->>>>>>> 7e33ef99c98cf93731e8c57b6f0a57b4325345fb
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-<<<<<<< HEAD
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
@@ -147,15 +139,6 @@ h6 {
   justify-content: center;
 }
 
-=======
-  color: #fff;
-  background: #4d5ae5;
-  cursor: pointer;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-}
->>>>>>> 7e33ef99c98cf93731e8c57b6f0a57b4325345fb
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
@@ -270,7 +253,6 @@ h6 {
   overflow: hidden;
   border-radius: 4px;
 }
-<<<<<<< HEAD
 
 .portfolio-image {
   width: 360px;
@@ -278,12 +260,11 @@ h6 {
   object-fit: cover;
   object-position: top;
 }
-=======
+
 .portfolio-image {
   width: 360px;
   height: 300px;
   display: block;
->>>>>>> 7e33ef99c98cf93731e8c57b6f0a57b4325345fb
 }
 .portfolio-subtitle {
   font-weight: 500;
