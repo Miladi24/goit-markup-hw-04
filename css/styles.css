@@ -37,12 +37,15 @@ h6 {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
+  padding: 0 15px 0 15px;
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -63,6 +66,7 @@ h6 {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 .header-menu-link {
   font-weight: 500;
@@ -101,6 +105,7 @@ h6 {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 292px;
+  padding: 188px 0 188px;
 }
 .hero-wrapper {
   padding: 188px 472px 292px 472px;
@@ -123,6 +128,7 @@ h6 {
   display: flex;
 
   margin: 0 auto;
+  display: block;
 }
 
 .hero-button {
@@ -139,6 +145,7 @@ h6 {
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  display: block;
 }
 
 .hero-button:hover,
@@ -155,7 +162,7 @@ h6 {
   gap: 24px;
 }
 .features-item {
-  width: calc((100% - 48px * 2) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-subtitle {
@@ -164,6 +171,7 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .features-item-text {
   font-weight: 400;
@@ -196,16 +204,20 @@ h6 {
 }
 .team-item {
   background-color: #ffffff;
-  width: calc((100% - 24px * 2) / 4);
+  width: calc((100% - 72px) / 4);
   width: 264px;
   padding-bottom: 32px;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-image {
   display: block;
   margin: 0 auto;
   height: 260px;
   width: 100%;
+}
+.employee-info {
+  padding-top: 32px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -224,10 +236,12 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 .portfolio {
   padding-top: 138px;
   padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -254,6 +268,7 @@ h6 {
   padding: 0 16px 32px;
   overflow: hidden;
   border-radius: 4px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image {
@@ -267,6 +282,13 @@ h6 {
   height: 300px;
   display: block;
 }
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  text-align: center;
+}
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -274,6 +296,7 @@ h6 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-top: 32px;
+
   margin-bottom: 8px;
 }
 .portfolio-item-text {
@@ -299,6 +322,7 @@ h6 {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .logo-part {
   font-weight: 700;
