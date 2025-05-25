@@ -46,6 +46,7 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -66,7 +67,6 @@ h6 {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 .header-menu-item {
   padding: 24px 0;
@@ -79,6 +79,7 @@ h6 {
   text-decoration: none;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -220,6 +221,7 @@ h6 {
 }
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 
   width: 264px;
   padding-bottom: 32px;
@@ -233,7 +235,7 @@ h6 {
   width: 100%;
 }
 .employee-info {
-  padding-top: 32px 0;
+  padding: 32px 0;
 }
 .team-subtitle {
   font-weight: 500;
