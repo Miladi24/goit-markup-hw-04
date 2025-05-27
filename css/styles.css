@@ -248,7 +248,8 @@ h6 {
   text-align: center;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
+
+  margin-bottom: 8px;
 }
 .team-item-text {
   font-weight: 400;
@@ -308,6 +309,7 @@ h6 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: left;
+  margin-bottom: 8px;
 }
 .portfolio-item-text {
   font-weight: 400;
