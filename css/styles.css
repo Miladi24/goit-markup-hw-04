@@ -30,8 +30,10 @@ h6 {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -216,23 +218,23 @@ h6 {
   display: flex;
   gap: 24px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  text-align: center;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  height: 380px;
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16),
+    0 1px 6px rgba(46, 47, 66, 0.08);
+  text-align: center;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   flex-direction: column;
-  gap: 32px;
 }
 .team-image {
-  height: 260px;
-  width: 264px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .employee-info {
   display: flex;
