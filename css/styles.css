@@ -261,13 +261,12 @@ h6 {
   text-align: center;
 }
 .portfolio {
-  padding-top: 138px;
-  padding-bottom: 120px;
+  padding-top: 164px;
+  padding-bottom: 76px;
   padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
-  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
