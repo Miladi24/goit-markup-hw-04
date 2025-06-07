@@ -322,6 +322,10 @@ h6 {
   gap: 24px;
   margin-bottom: 32px;
 }
+.social-item {
+  width: 40px;
+  height: 40px;
+}
 
 .social-link {
   width: 100%;
@@ -336,19 +340,18 @@ h6 {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 
 .program-icon {
-  width: 40px;
-  height: 20px;
-
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
   border-radius: 50%;
   border-color: #4d5ae5;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #f4f4fd;
 }
 
 .portfolio {
