@@ -144,11 +144,14 @@ h6 {
     ),
     url(../images/people-office-1-min.jpg);
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   max-width: 1440px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .hero-wrapper {
   padding: 188px 472px 292px 472px;
@@ -216,6 +219,7 @@ h6 {
 }
 .features-list {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 .features-item {
@@ -223,7 +227,8 @@ h6 {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  text-align: left;
 }
 .icon-box {
   width: 264px;
@@ -238,12 +243,13 @@ h6 {
 }
 
 .feature-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  text-align: left;
 }
 .features-item-text {
   font-weight: 400;
@@ -318,6 +324,9 @@ h6 {
   justify-content: center;
   gap: 24px;
   margin-bottom: 32px;
+  margin-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .social-item {
   width: 40px;
@@ -500,8 +509,6 @@ h6 {
 
 .footer-social-wrapper {
   max-width: 264px;
-  display: flex;
-  flex-direction: column;
   margin-right: 120px;
   align-items: flex-start;
   margin-top: 16px;
