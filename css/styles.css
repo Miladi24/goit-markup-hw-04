@@ -507,7 +507,7 @@ h6 {
 
 .footer-social-wrapper {
   max-width: 264px;
-
+  margin-right: 120px;
   align-items: flex-start;
 }
 .footer-social {
