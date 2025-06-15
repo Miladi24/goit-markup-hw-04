@@ -327,6 +327,7 @@ h6 {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
   flex-shrink: 0;
 }
 .social-item {
